@@ -1,5 +1,5 @@
 {
-  "name": "raymond/example-composer-package",
+  "name": "skylei/example-composer-package",
   "description": "make a package",
   "type": "library",
   "license": "MIT",
