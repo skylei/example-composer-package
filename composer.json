@@ -1,0 +1,25 @@
+{
+  "name": "raymond/example-composer-package",
+  "description": "make a package",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "skylei",
+      "email": "skylei@live.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "ExampleComposerPackage\\": "src/",
+      "ExampleComposerPackageTest\\Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  }
+}
