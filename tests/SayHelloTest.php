@@ -14,10 +14,12 @@ class SayHelloTest extends TestCase
 
     /**
      * SayHelloTesting
+     *
+     * @param string $args
      */
-    public function testHelloWorld()
+    public function testHelloWorld($args = "Hello World!")
     {
         $sayHello = new SayHello();
-        $this->assertEquals("Hello World!", $sayHello->helloWorld());
+        $this->assertEquals($args, $sayHello->helloWorld());
     }
 }

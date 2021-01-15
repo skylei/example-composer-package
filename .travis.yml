@@ -1,0 +1,5 @@
+language: php
+
+php:
+  - php5.6
+  - php7.0
